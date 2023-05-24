@@ -1,6 +1,6 @@
 
 *{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -10,7 +10,6 @@ body {
 
 h1 {
   color: #4d4d4d;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
@@ -76,8 +75,6 @@ button {
 article {
   flex-direction: column;
   justify-content: center;
-  /* margin: 5px;
-  border: 5px solid rgba(0, 0, 0, 0); */
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   height: 350px;
   max-width: 20%;
@@ -86,16 +83,12 @@ article {
 
 article > section {
   position: relative;
-  /* border: 5px solid red; */
   width: 100%;
   height: 100%;
 }
 
 .card-button{
-  /* background-image: white; */
-  /* border-radius: 50%; */
   position: absolute;
-  /* align-self: flex-end; */
   z-index: 1;
   top: 0; 
   left: 0;
@@ -155,13 +148,10 @@ h3, .time-stamp {
 .album-cover {
   height: 100%;
   width: 100%;
-  /* margin: 0 auto; */
-  /* overflow: clip; */
 }
 
 .link-block {
   background-color: #efefef;
-  /* border-radius: 15px; */
   padding: 2%;
   width: 90%;
   font-size: smaller;
