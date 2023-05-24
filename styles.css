@@ -110,6 +110,7 @@ article > section {
 
 .card-details {
   overflow-wrap: break-word;
+  background-color: white;
 }
 
 article p, h2, h3 {
@@ -121,6 +122,10 @@ article p, h2, h3 {
 
 article h2, h3 {
   font-size: 14px;
+}
+
+h3, .time-stamp {
+  padding-bottom: 5%;
 }
 
 .main-image {
